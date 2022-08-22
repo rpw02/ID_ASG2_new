@@ -1,6 +1,6 @@
 
 .section-p1{
-    padding: 20px 80px;
+    padding: 40px 80px;
 }
 
 .section-m1{
@@ -97,7 +97,7 @@
 #product1 .pro{
       width: 23%;
       min-width: 250px;
-      padding: 10px 12px;
+      padding: 30px 12px;
       border: 1px solid lightslategray;
       border-radius: 25px;
       cursor: pointer;
@@ -141,6 +141,11 @@
     color: dodgerblue;
 }
 
+#product1 .load{
+    text-decoration: none;
+    padding: 50px;
+}
+
 #feature{
     display: flex;
     align-items: center;
@@ -156,7 +161,7 @@
     border: 3px solid rgb(255, 247, 183);
     background-color: rgba(255, 189, 109, 0.852);
     border-radius: 50px;
-    margin: 90px 50px 90px 50px;
+    margin: 90px 40px 90px 40px;
 }
 
 #feature .fe-box:hover{
@@ -166,7 +171,7 @@
 .fe-but{
     text-decoration: none;
     font-size: 20px;
-    margin: 40px 0 40px 0;
+    margin: 20px 0 20px 0;
     color: rgb(0, 0, 0);
 }
 
@@ -200,7 +205,7 @@
 
 #sm-banner .banner .ban2 .banner-box .product-img img{
     width: 300px;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
     border-radius: 30px;
 }
@@ -211,13 +216,13 @@
 
 #sm-banner .banner .ban2 .banner-box h4{
     font-size: 30px;
-    margin: 10px 0 10px 0;
+    margin: 20px 0 20px 0;
     color: darkslategrey;
 }
 
 #sm-banner .banner .ban2 .banner-box h5{
     font-size: 20px;
-    margin: 10px 0 10px 0;
+    margin: 20px 0 20px 0;
     color: rgb(142, 142, 142);
 }
 
@@ -236,4 +241,33 @@
     padding: 20px;
 }
 
+footer{
+    padding:50px;
+    margin: 100px 0 0 0;
+    background-color: honeydew;
+}
 
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .icon img{
+    width: 50px;
+    padding: 0 20px 0 0;
+}
+
+
+
+/*Products pg*/
+
+
+
+/*Sign up page*/
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
