@@ -7,6 +7,14 @@
     margin: 40px 0;
 }
 
+#animContainer{
+    background: white;
+    height:100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
 
 /* header */
 .logo{
