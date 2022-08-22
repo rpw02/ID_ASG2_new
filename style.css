@@ -1,0 +1,239 @@
+
+.section-p1{
+    padding: 20px 80px;
+}
+
+.section-m1{
+    margin: 40px 0;
+}
+
+
+/* header */
+.logo{
+    height: 50px;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background: lavender;
+    box-shadow: 0 5px 15px rgba(0 0 0 0.06);
+    position: sticky;
+    top: 0;
+    left: 0
+}
+
+#header img{
+    border-radius: 30px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: rgb(15, 158, 177);
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background:rgb(15, 158, 177);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+/*Home pg*/
+#hero{
+    padding: 0 0 0 80px;
+}
+
+#hero h1{
+    font-size: 50px;
+    margin: 20px 0 20px 0;
+    color: rgb(190, 143, 255);
+}
+
+#product1{
+    text-align: center;
+    background-color: lavenderblush;
+}
+
+#product1 h2{
+    font-size: 50px;
+    margin: 10px 0 10px 0;
+    color: blueviolet;
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+      width: 23%;
+      min-width: 250px;
+      padding: 10px 12px;
+      border: 1px solid lightslategray;
+      border-radius: 25px;
+      cursor: pointer;
+      box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+      margin: 15px 0;
+      transition: 0.2s ease;
+      background-color: lightcyan;
+}
+
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-weight: 500px;
+    font-size: 20px;
+    color: rgb(44, 9, 127);
+}
+
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: black;
+    font-size: 14px;
+}
+
+.apply{
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    line-height: 60px;
+    border-radius: 60px;
+    background-color: antiquewhite;
+    font-weight: 500;
+    color: dodgerblue;
+}
+
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box{
+    width: 120px;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+    border: 3px solid rgb(255, 247, 183);
+    background-color: rgba(255, 189, 109, 0.852);
+    border-radius: 50px;
+    margin: 90px 50px 90px 50px;
+}
+
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 67, 77, 0.03);
+}
+
+.fe-but{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 40px 0 40px 0;
+    color: rgb(0, 0, 0);
+}
+
+
+#sm-banner .banner{
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+
+#sm-banner .banner .banner-box{
+    padding: 20px 20px 20px 0;
+}
+
+#sm-banner .banner .ban2{
+    display: flex;
+    padding: 20px 20px 20px 0;
+}
+
+#sm-banner h2{
+    font-size: 40px;
+    margin: 30px 0 50px 0;
+}
+
+#sm-banner h3{
+    text-decoration: none;
+    color: navy;
+    font-size: 30px;
+    margin: 20px 0 20px 0;
+}
+
+#sm-banner .banner .ban2 .banner-box .product-img img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+#sm-banner .banner .ban2 .banner-box .star img{
+    width: 50px;
+}
+
+#sm-banner .banner .ban2 .banner-box h4{
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+    color: darkslategrey;
+}
+
+#sm-banner .banner .ban2 .banner-box h5{
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+    color: rgb(142, 142, 142);
+}
+
+
+.star{
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+}
+
+#sm-banner .banner .ban2 .banner-box .banner-but{
+    
+    text-align: end;
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+}
+
+
