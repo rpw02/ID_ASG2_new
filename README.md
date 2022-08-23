@@ -25,5 +25,6 @@ Lottie animations</p>
 Teacher(s): Mr Donavan Koh <br>
 Platform: Visual Studio Code</p>
 
-<h3>Video</h3>
-<p>Link: https://drive.google.com/drive/folders/1OwxAJc0z819PmmLSwhRRTkKzrncPgtf9?usp=sharing</p>
+<h3>Links</h3>
+<p>Goggle Drive: https://drive.google.com/drive/folders/1OwxAJc0z819PmmLSwhRRTkKzrncPgtf9?usp=sharing <br>
+Github: https://github.com/rpw02/ID_ASG2_new</p>
