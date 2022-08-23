@@ -24,3 +24,6 @@ Lottie animations</p>
 <p>Instituition: Ngee Ann Polytechnic <br>
 Teacher(s): Mr Donavan Koh <br>
 Platform: Visual Studio Code</p>
+
+<h3>Video</h3>
+<p>Link: https://drive.google.com/drive/folders/1OwxAJc0z819PmmLSwhRRTkKzrncPgtf9?usp=sharing</p>
